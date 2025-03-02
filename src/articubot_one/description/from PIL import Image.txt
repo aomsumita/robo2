@@ -1,0 +1,8 @@
+from PIL import Image
+
+# เปิดไฟล์ .pgm
+image = Image.open("T0.pgm")
+image.show()
+
+# บันทึกเป็นรูปแบบอื่น (เช่น .png)
+image.save("T0.png")
